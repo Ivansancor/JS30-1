@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 27, 27, 0.9)), color-stop(rgba(27, 27, 27, 0.3)), to(rgba(27, 27, 27, 0.9))), url(/dist/assets/img/people-festival.jpg);
+  background: linear-gradient(to bottom, rgba(27, 27, 27, 0.9), rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.9)), url(/dist/assets/img/people-festival.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .key {
+  color: white;
+  font-size: 2rem;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  border: 0.2rem solid white;
+  width: 8rem;
+  height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+body .container .key.active {
+  border: 0.2rem solid yellow;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+body .container .key p {
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */
